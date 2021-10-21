@@ -22,5 +22,9 @@ class MainActivity : AppCompatActivity() {
         binding.btnShow.setOnClickListener(){
             calculate()
         }
+
+        fun test(){
+            
+        }
     }
 }
