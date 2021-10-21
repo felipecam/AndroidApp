@@ -15,8 +15,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         fun calculate (){
-            var name = binding.txtname.text
-            Toast.makeText(this,name, Toast.LENGTH_SHORT).show();
+            var textField = binding.txtname.text
+            Toast.makeText(this,textField, Toast.LENGTH_SHORT).show();
         }
 
         binding.btnShow.setOnClickListener(){
